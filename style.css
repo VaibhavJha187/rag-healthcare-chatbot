@@ -1,0 +1,42 @@
+body {
+  background-color: #f4f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.chat-container {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.chat-bubble {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  max-width: 75%;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* Chatbot message */
+.chatbot {
+  background-color: #e1f5fe;
+  color: #000;
+  align-self: flex-start;
+  border-top-left-radius: 0;
+}
+
+/* User message */
+.user {
+  background-color: #c8e6c9;
+  color: #000;
+  align-self: flex-end;
+  margin-left: auto;
+  border-top-right-radius: 0;
+}
+
+/* Flex column wrapper */
+.chat-row {
+  display: flex;
+  flex-direction: column;
+}
